@@ -1,0 +1,13 @@
+<htm>
+  <head>
+	  <title>Div Test</title>
+    <link rel="stylesheet" type="text/css" href="DivTest.css" />
+  </head>
+  <body>
+    <h1>GAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!</h1>
+    <h3>GAAAAAAAAAAAAAAA!</h3>
+    <div id="topDiv">Text one</div>
+    <div id="treeDiv">Text two</div>
+    <div id="sidebarDiv">Text three</div>
+  </body>
+</html>

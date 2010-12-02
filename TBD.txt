@@ -1,0 +1,9 @@
+TBD:
+
+1) Fix cross-browser compatability and basic CSS layout
+2) Design database and XML + PHP MySQL to XML output -- http://www.kirupa.com/web/mysql_xml_php.htm ??
+3) Convert tree layout to read XML (full into including vars on each supported criteria) -- http://www.w3schools.com/DOM/dom_loadxmldoc.asp
+4) Tree layout mouse-over with jQuery
+5) PHP to generate XML from NEDI / LDAP 
+6) Sidebar functionality (hit counter)
+7) Nice CSS (see JP)

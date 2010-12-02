@@ -1,0 +1,23 @@
+<htm>
+  <head>
+	  <title>TeamView</title>
+    <link rel="stylesheet" type="text/css" href="TeamView.css" />
+  </head>
+  <body>
+    
+    <div id="HeaderDiv">
+    	Header
+    </div>
+    
+    <div id="TreeDiv">
+    	
+    	<?php echo file_get_contents( "RefTree.shtml" ); ?>
+    	
+    </div>
+    
+    <div id="SidebarDiv">
+    	Text three
+    </div>
+    
+  </body>
+</html>

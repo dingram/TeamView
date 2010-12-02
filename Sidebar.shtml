@@ -1,0 +1,4 @@
+<h1>Sidebar</h1>
+<span style="position:absolute;bottom:0px;">
+	<h4>Uses : <a href="http://jquery.com/">jQuery</a>, <a href="http://goo.gl/nTEw">ECOTree</a> &nbsp;<span class="copy">&copy;2006 Emilio Cortegoso Lobato</h4>
+</span>

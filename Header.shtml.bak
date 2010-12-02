@@ -1,0 +1,20 @@
+
+		 <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+		 <script src="popup.js" type="text/javascript"></script> 
+		 <link rel="stylesheet" href="popup.css" type="text/css" media="screen" />
+	</head>
+	<body>
+    <h1>TeamView</h1> 
+
+<!-- 	  <div id="button"><input type="submit" value="Press me please!" /></div> -->
+    <a href="" id="popupLink">Click here for more information</a>.
+	  <div id="popupContact"> 
+		  <a id="popupContactClose">x</a> 
+		  <h1>TeamView</h1> 
+		  <p id="contactArea"> 
+			TeamView is a simple tool for visually demonstrating which teams in Nokia specific criteria apply to.<br/><br/>
+			Examine the options on the right panel for examples.<br/><br/>
+			If you wish to add a new criteria or have any questions or bugs to report please contact <a href="mailto:david.druant@nokia.com">David Durant</a>, Engineering Environments, RDST.<br/><br/>
+		
+	  </div> 
+	<div id="backgroundPopup"></div> 
