@@ -362,11 +362,9 @@ ECOTree.SL_NONE = 2;
 
 
 ECOTree._getAutoRenderMode = function() {
-  var r = "VML";
-	var is_ie6 = /msie 6\.0/i.test(navigator.userAgent);
-	var is_ff = /Mozilla/i.test(navigator.userAgent);	
-	if (is_ff) r = "CANVAS";
-	return r;
+  if (!document.createElement('canvas').getContext)
+    return 'VML';
+  return "CANVAS";
 }
 
 //CANVAS functions...
