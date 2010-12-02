@@ -703,7 +703,7 @@ ECOTree.prototype._drawTree = function () {
 					this.ctx.restore();
 					
 					//HTML part...
-					s.push('<div id="' + node.id + '" class="econode" style="{top:'+(node.YPosition+this.canvasoffsetTop)+'; left:'+(node.XPosition+this.canvasoffsetLeft)+'; width:'+node.w+'; height:'+node.h+';}" ');
+					s.push('<div id="' + node.id + '" class="econode" style="top:'+(node.YPosition+this.canvasoffsetTop)+'; left:'+(node.XPosition+this.canvasoffsetLeft)+'; width:'+node.w+'; height:'+node.h+';" ');
 					if (this.config.selectMode != ECOTree.SL_NONE)											
 						s.push('onclick="javascript:ECOTree._canvasNodeClickHandler('+this.obj+',event.target.id,\''+node.id+'\');" ');										
 					s.push('>');
