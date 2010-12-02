@@ -1,18 +1,27 @@
-#HeaderDiv { 
-	height: 10%; 
+h1 {
+	margin-top: 0.2em;
+}
+
+#HeaderDiv {
+	min-height: 10%;
 	border-color: red;
 	border-style: solid;
 	border-width: 1px;
 }
 
 #TreeDiv {
-  width: 80%;
-  border-color: blue;
+	width: 79%;
+	border-color: blue;
 	border-style: solid;
 	border-width: 1px;
+	padding: 0.3em;
+	overflow: auto;
+	position: relative;
 }
 
 #SidebarDiv {
+	float: right;
+	width: 20%;
 	border-color: green;
 	border-style: solid;
 	border-width: 1px;
